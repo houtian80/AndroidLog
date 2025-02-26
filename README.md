@@ -11,6 +11,7 @@ Usage：
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     
 3、在application初始化SDK，并配置开关参数
+
     //初始化SDK
     public void initALog() {
         ALog.Config config = ALog.init(this)
