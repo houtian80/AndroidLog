@@ -42,6 +42,7 @@ Usage：
     }
     
 4、在需要打印日志的地方调用
+
     ALog.d("debug");
     ALog.e("error");
     ALog.w("warning");
