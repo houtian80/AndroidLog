@@ -7,6 +7,7 @@ Usage：
 1、将ALog添加进项目中
 
 2、AndroidManifest.xml里面添加些文件权限
+
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     
