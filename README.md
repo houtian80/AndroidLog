@@ -1,10 +1,14 @@
 # AndroidLog
 This is an Android log project, written based on Alog open source, supports writing to local files, console, supports printing json, xml, etc., which can meet daily development needs
+
+
 Usage：
 1、将ALog添加进项目中
+
 2、AndroidManifest.xml里面添加些文件权限
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
 3、在application初始化SDK，并配置开关参数
     //初始化SDK
     public void initALog() {
@@ -34,6 +38,7 @@ Usage：
                 });
         ALog.d(config.toString());
     }
+    
 4、在需要打印日志的地方调用
     ALog.d("debug");
     ALog.e("error");
